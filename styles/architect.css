@@ -85,5 +85,7 @@ text-align: center;
 /* media query for header section */
 
 @media screen and (max-width:576px) {
-      
+      nav > ul {
+            flex-direction: column;
+      }
 }
